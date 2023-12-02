@@ -1,0 +1,24 @@
+.competences {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    margin: 15px;
+}
+
+.langue {
+    grid-column: 2;
+    border: 2px solid black;
+}
+
+.listecode {
+    border: 2px solid black;  
+}
+
+.veille {
+    border: 2px solid black;
+}
+
+.titrecompetence {
+    text-align: center;
+    font-weight: bolder;
+}
